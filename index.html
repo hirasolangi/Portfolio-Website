@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Hira Solangi</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I am</h3>
+            <h1>Hira Solangi</h1>
+            <h3>Web Developer</h3>
+            <p>I specialize in crafting responsive and dynamic websites using HTML, CSS, and JavaScript. 
+                Passionate about creating seamless user experiences with clean and efficient code.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/share/14vuKtabMM/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/hiraah_solangi" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/hira-solangi" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/hirasolangi" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="image.png" alt="Hira Solangi">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+          <img src="image.png" alt="About Me">
+      </div>
+  
+      <div class="about-content">
+          <h2 class="heading">About <span>Me</span></h2>
+          <p>
+              I am Hira Solangi, a passionate Web Developer dedicated to crafting modern, responsive, 
+              and user-friendly websites. I specialize in HTML, CSS, JavaScript, and frontend frameworks.
+              My goal is to bring ideas to life with elegant and efficient code.
+          </p>
+          <a href="#" class="btn">Read More</a>
+      </div>
+  </section>
+  
+  <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="skills-container">
+          <div class="skill">
+              <h3>HTML</h3>
+              <div class="progress-bar">
+                  <div class="progress html" data-skill="90%"></div>
+              </div>
+          </div>
+          <div class="skill">
+              <h3>CSS</h3>
+              <div class="progress-bar">
+                  <div class="progress css" data-skill="80%"></div>
+              </div>
+          </div>
+          <div class="skill">
+              <h3>JavaScript</h3>
+              <div class="progress-bar">
+                  <div class="progress js" data-skill="70%"></div>
+              </div>
+          </div>
+      </div>
+  </section>  
+
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Services</span></h2>
+    <div class="services-container">
+        <div class="service">
+            <i class="fas fa-code"></i>
+            <h3>Web Development</h3>
+            <p>Creating responsive and user-friendly websites using modern technologies.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-paint-brush"></i>
+            <h3>UI/UX Design</h3>
+            <p>Designing visually appealing and intuitive user interfaces for a better experience.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>App Development</h3>
+            <p>Building mobile applications with smooth functionality and attractive designs.</p>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+  <p class="sub-heading">Have any questions? Feel free to reach out!</p>
+
+  <div class="contact-box">
+      <div class="message-icon">
+          <i class="fas fa-envelope"></i>
+          <span>Send me a message</span>
+      </div>
+      <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name">
+          <input type="email" id="email" placeholder="Your Email">
+          <textarea id="message" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn">Send Message</button>
+      </form>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2024 All Rights Reserved | Hira Solangi</p>
+</footer>
+</body>
+</html>
